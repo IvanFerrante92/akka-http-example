@@ -543,3 +543,247 @@ WARNING: Unmatched cancel notification for request id 6183
 2020.05.27 11:12:37 INFO  time: compiled akka-http in 1.34s
 2020.05.27 11:13:06 INFO  compiling akka-http (1 scala source)
 2020.05.27 11:13:06 INFO  time: compiled akka-http in 0.87s
+May 27, 2020 11:44:38 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:416)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:436)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:44:38 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:416)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:436)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:44:38 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:416)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:436)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:44:39 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:416)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:436)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:45:14 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:477)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:45:19 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:480)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:45:19 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:480)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:45:19 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:480)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+May 27, 2020 11:45:19 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:480)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.05.27 11:45:54 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:45:56 INFO  time: compiled akka-http in 1.93s
+2020.05.27 11:46:12 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:46:17 INFO  time: compiled akka-http in 4.65s
+2020.05.27 11:46:27 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:46:29 INFO  time: compiled akka-http in 2.01s
+May 27, 2020 11:47:10 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:643)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:47)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:480)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:402)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:394)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:379)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:416)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:170)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:127)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:81)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:185)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.05.27 11:47:31 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:47:31 INFO  time: compiled akka-http in 0.77s
+2020.05.27 11:47:44 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:47:44 INFO  time: compiled akka-http in 0.78s
+2020.05.27 11:47:44 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:47:45 INFO  time: compiled akka-http in 0.62s
+2020.05.27 11:47:56 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:47:56 INFO  time: compiled akka-http in 0.65s
+2020.05.27 11:48:05 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:48:06 INFO  time: compiled akka-http in 1.03s
+2020.05.27 11:48:06 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:48:06 INFO  time: compiled akka-http in 0.83s
+2020.05.27 11:48:32 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:48:35 INFO  time: compiled akka-http in 2.97s
