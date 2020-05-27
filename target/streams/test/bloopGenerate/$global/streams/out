@@ -1,0 +1,4 @@
+[debug] [akka-http-test] Classpath dependencies List()
+[debug] [akka-http-test] Dependencies from configurations List(akka-http)
+[debug] Bloop wrote the configuration of project 'akka-http-test' to '/Users/IvanFerrante/Desktop/akka-http/.bloop/akka-http-test.json'
+[success] Generated .bloop/akka-http-test.json
