@@ -237,3 +237,149 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.05.27 09:57:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/IvanFerrante/Library/Caches/org.scalameta.metals/bsp.trace.json
 2020.05.27 09:57:13 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
 2020.05.27 09:57:17 INFO  time: indexed workspace in 4.04s
+May 27, 2020 10:01:28 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.05.27 10:03:03 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2020.05.27 10:03:16 INFO  started: Metals version 0.9.0 in workspace '/Users/IvanFerrante/Desktop/akka-http'
+2020.05.27 10:03:18 INFO  time: initialize in 1.86s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2w/qkqxy6h91jz_d0_vk99q76xh0000gn/T/bsp-launcher6840098074494552579/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2w/qkqxy6h91jz_d0_vk99q76xh0000gn/T/bsp-launcher6840098074494552579/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2w/qkqxy6h91jz_d0_vk99q76xh0000gn/T/bsp-launcher6840098074494552579/bsp.socket...
+2020.05.27 10:03:19 INFO  skipping build import with status 'Installed'
+2020.05.27 10:03:19 INFO  no build target: using presentation compiler with only scala-library
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.05.27 10:03:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/IvanFerrante/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.05.27 10:03:19 INFO  time: connected to build server in 0.56s
+2020.05.27 10:03:19 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.05.27 10:03:26 INFO  time: indexed workspace in 6.41s
+2020.05.27 10:10:01 INFO  skipping build import with status 'Installed'
+May 27, 2020 10:12:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+May 27, 2020 10:12:10 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 27, 2020 10:12:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:52)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:52)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1928)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1928)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1990)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5654)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5733)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5797)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3357)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3357)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5363)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5656)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5733)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:451)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:370)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+
+May 27, 2020 10:13:08 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 27, 2020 10:13:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:64)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:141)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:138)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:52)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:229)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:228)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:58)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:94)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:80)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:298)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:479)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:478)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:52)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:272)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$enterSyms$1(Typers.scala:1928)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1928)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1990)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1883)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5654)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5733)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:5797)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$10(Typers.scala:3357)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3357)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5363)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5656)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5733)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:451)
+	at scala.tools.nsc.interactive.Global$TyperRun.$anonfun$applyPhase$1(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1340)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1333)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:665)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:814)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1225)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:370)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:53)
+
+May 27, 2020 10:13:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 294
+May 27, 2020 10:13:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 324
+May 27, 2020 10:15:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 539
+2020.05.27 10:17:08 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:17:10 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 10:17:10 INFO  time: compiled akka-http in 1.6s
+2020.05.27 10:19:55 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:19:55 INFO  time: compiled akka-http in 0.5s
+2020.05.27 10:20:25 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:20:25 INFO  time: compiled akka-http in 0.34s
+2020.05.27 10:20:31 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:20:32 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 10:20:32 INFO  time: compiled akka-http in 1.13s
+May 27, 2020 10:20:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 952
+May 27, 2020 10:20:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 951
+2020.05.27 10:23:04 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:23:05 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 10:23:05 INFO  time: compiled akka-http in 1.25s
+2020.05.27 10:23:28 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:23:28 INFO  time: compiled akka-http in 0.35s
+May 27, 2020 10:23:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1397
+2020.05.27 10:23:45 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:23:46 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 10:23:46 INFO  time: compiled akka-http in 1.81s
+2020.05.27 10:24:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/IvanFerrante/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2020.05.27 10:24:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/IvanFerrante/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2020.05.27 10:24:16 INFO  Starting debug proxy for [Main]
+2020.05.27 10:24:16 INFO  Canceling debug proxy for [Main]
