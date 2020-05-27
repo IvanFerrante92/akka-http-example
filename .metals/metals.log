@@ -383,3 +383,163 @@ WARNING: Unmatched cancel notification for request id 1397
 2020.05.27 10:24:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/IvanFerrante/Library/Caches/org.scalameta.metals/dap-client.trace.json
 2020.05.27 10:24:16 INFO  Starting debug proxy for [Main]
 2020.05.27 10:24:16 INFO  Canceling debug proxy for [Main]
+May 27, 2020 10:28:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.05.27 10:28:08 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:28:08 INFO  time: compiled akka-http in 0.84s
+2020.05.27 10:28:59 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:29:00 INFO  time: compiled akka-http in 1.08s
+2020.05.27 10:30:13 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:30:13 INFO  time: compiled akka-http in 0.72s
+2020.05.27 10:31:00 INFO  compiling akka-http (3 scala sources)
+2020.05.27 10:31:01 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 10:31:01 INFO  time: compiled akka-http in 1.32s
+May 27, 2020 10:31:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1904
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 219)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 213)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 215)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 214)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[Todo]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 215)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[Todo]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 215)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Seq[Todo]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 206, 206, 215)
+May 27, 2020 10:35:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2154
+2020.05.27 10:36:40 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:36:40 INFO  time: compiled akka-http in 0.17s
+2020.05.27 10:36:59 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:36:59 INFO  time: compiled akka-http in 0.16s
+2020.05.27 10:37:07 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:37:07 INFO  time: compiled akka-http in 0.73s
+2020.05.27 10:37:07 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:37:07 INFO  time: compiled akka-http in 0.2s
+2020.05.27 10:37:35 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:37:35 INFO  time: compiled akka-http in 0.62s
+2020.05.27 10:37:50 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:37:50 INFO  time: compiled akka-http in 0.12s
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Vector[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 380, 380, 396)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Vector[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 380, 380, 390)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Vector[<error>]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 380, 380, 391)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Vector[Todo]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 380, 380, 392)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Vector[Todo]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 380, 380, 392)
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala in Vector[Todo]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/TodoRepository.scala, 380, 380, 392)
+2020.05.27 10:39:45 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:39:45 INFO  time: compiled akka-http in 0.1s
+2020.05.27 10:40:13 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:40:13 INFO  time: compiled akka-http in 0.19s
+2020.05.27 10:40:27 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:40:27 INFO  time: compiled akka-http in 0.25s
+2020.05.27 10:40:27 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:40:27 INFO  time: compiled akka-http in 0.11s
+2020.05.27 10:40:33 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:40:33 INFO  time: compiled akka-http in 0.88s
+2020.05.27 10:40:51 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:40:51 INFO  time: compiled akka-http in 0.84s
+2020.05.27 10:41:59 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:41:59 INFO  time: compiled akka-http in 0.41s
+2020.05.27 10:42:00 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:42:00 INFO  time: compiled akka-http in 0.58s
+2020.05.27 10:43:36 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:43:36 INFO  time: compiled akka-http in 82ms
+2020.05.27 10:44:15 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:44:15 INFO  time: compiled akka-http in 82ms
+2020.05.27 10:44:21 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:44:21 INFO  time: compiled akka-http in 0.74s
+2020.05.27 10:44:21 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:44:22 INFO  time: compiled akka-http in 0.32s
+2020.05.27 10:44:37 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:44:37 INFO  time: compiled akka-http in 87ms
+2020.05.27 10:46:46 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:46:46 INFO  time: compiled akka-http in 0.43s
+2020.05.27 10:48:30 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:48:33 INFO  time: compiled akka-http in 2.99s
+2020.05.27 10:49:13 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:49:13 INFO  time: compiled akka-http in 0.35s
+2020.05.27 10:49:19 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:49:19 INFO  time: compiled akka-http in 0.75s
+May 27, 2020 10:51:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4397
+May 27, 2020 10:52:11 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+May 27, 2020 10:52:12 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+May 27, 2020 10:52:13 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2020.05.27 10:52:15 INFO  compiling akka-http (1 scala source)
+2020.05.27 10:52:15 INFO  time: compiled akka-http in 0.22s
+2020.05.27 10:54:33 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:54:33 INFO  time: compiled akka-http in 0.27s
+2020.05.27 10:54:49 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:54:49 INFO  time: compiled akka-http in 0.25s
+2020.05.27 10:55:24 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:55:24 INFO  time: compiled akka-http in 0.26s
+2020.05.27 10:55:32 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:55:32 INFO  time: compiled akka-http in 0.24s
+2020.05.27 10:55:32 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:55:32 INFO  time: compiled akka-http in 0.18s
+2020.05.27 10:55:56 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:55:56 INFO  time: compiled akka-http in 0.23s
+2020.05.27 10:56:16 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:16 INFO  time: compiled akka-http in 0.25s
+2020.05.27 10:56:29 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:29 INFO  time: compiled akka-http in 0.23s
+2020.05.27 10:56:29 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:29 INFO  time: compiled akka-http in 0.19s
+something's wrong: no file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/Server.scala in scala.concurrent.Future[akka.http.scaladsl.Http.ServerBinding]RangePosition(file:///Users/IvanFerrante/Desktop/akka-http/src/main/scala/Server.scala, 363, 363, 384)
+2020.05.27 10:56:34 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:34 INFO  time: compiled akka-http in 0.24s
+2020.05.27 10:56:45 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:45 INFO  time: compiled akka-http in 0.25s
+2020.05.27 10:56:45 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:45 INFO  time: compiled akka-http in 0.34s
+2020.05.27 10:56:53 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:53 INFO  time: compiled akka-http in 0.22s
+2020.05.27 10:56:53 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:53 INFO  time: compiled akka-http in 0.21s
+2020.05.27 10:56:54 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:54 INFO  time: compiled akka-http in 0.2s
+2020.05.27 10:56:54 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:56:54 INFO  time: compiled akka-http in 0.18s
+2020.05.27 10:57:30 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:57:30 INFO  time: compiled akka-http in 0.2s
+2020.05.27 10:57:57 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:57:57 INFO  time: compiled akka-http in 0.26s
+2020.05.27 10:57:59 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:57:59 INFO  time: compiled akka-http in 0.19s
+2020.05.27 10:58:09 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:58:09 INFO  time: compiled akka-http in 0.27s
+2020.05.27 10:58:09 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:58:09 INFO  time: compiled akka-http in 0.2s
+2020.05.27 10:58:12 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:58:12 INFO  time: compiled akka-http in 0.16s
+2020.05.27 10:59:36 INFO  compiling akka-http (2 scala sources)
+2020.05.27 10:59:36 INFO  time: compiled akka-http in 0.22s
+2020.05.27 11:00:57 INFO  compiling akka-http (2 scala sources)
+2020.05.27 11:00:57 INFO  time: compiled akka-http in 0.2s
+2020.05.27 11:01:30 INFO  compiling akka-http (2 scala sources)
+2020.05.27 11:01:32 WARN  there were 5 deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 11:01:32 INFO  time: compiled akka-http in 1.48s
+2020.05.27 11:04:51 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:04:51 INFO  time: compiled akka-http in 0.57s
+2020.05.27 11:05:08 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:05:09 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 11:05:09 INFO  time: compiled akka-http in 1.09s
+May 27, 2020 11:09:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5795
+May 27, 2020 11:09:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5799
+May 27, 2020 11:09:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5800
+2020.05.27 11:10:53 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:10:55 INFO  time: compiled akka-http in 1.46s
+May 27, 2020 11:11:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6183
+2020.05.27 11:11:19 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:11:22 INFO  time: compiled akka-http in 3.16s
+2020.05.27 11:12:33 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:12:33 INFO  time: compiled akka-http in 0.16s
+2020.05.27 11:12:36 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:12:37 WARN  there were three deprecation warnings (since 2.6.0); re-run with -deprecation for details
+2020.05.27 11:12:37 INFO  time: compiled akka-http in 1.34s
+2020.05.27 11:13:06 INFO  compiling akka-http (1 scala source)
+2020.05.27 11:13:06 INFO  time: compiled akka-http in 0.87s

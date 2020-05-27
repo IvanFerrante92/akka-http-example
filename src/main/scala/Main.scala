@@ -16,16 +16,18 @@ object Main extends App {
     implicit val materializer: ActorMaterializer = ActorMaterializer() //used to create Stream
     import system.dispatcher
 
-    import akka.http.scaladsl.server.Directives._
-    // path and get method
-    def route = path("hello") {
-        get {
-            complete("Hello world!")
-        }
-    }
+    // Instance of todos object, server and router
+    val todoRepository = new InMemoryTodoRepository(Seq(
+        Todo("1", "Buy coffee", "Remember to buy coffee", false),
+        Todo("2", "Pay recepits", "Remember to pay the telephone bill", false),
+        Todo("3", "Go to market", "We need more food!", true)
+    ))
+    val router = new TodoRouter(todoRepository)
+    val server = new Server(router, host, port)
+
 
     //binding of a server
-    val binding = Http().bindAndHandle(route, host, port)
+    val binding = server.bind()
     binding.onComplete {
         case Success(_) => ("Success!")
         case Failure(exception) => (s"Failed: ${exception.getMessage()}")
