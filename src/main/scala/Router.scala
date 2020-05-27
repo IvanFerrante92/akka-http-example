@@ -21,7 +21,7 @@ class TodoRouter(todoRepository: TodoRepository) extends Router with Directives{
                     case Success(todos) => complete(todos)
                     case Failure(error) => 
                         println(error.getMessage)
-                        complete(StatusCodes.InternalServerError)
+                        complete(StatusCodes.InternalServerError) 
                 }
           }
       } ~ path(pm = "done") {
