@@ -1,2 +1,2 @@
 * linguist-vendored
-*.xsl linguist-vendored=false
+*.scala linguist-vendored=false
